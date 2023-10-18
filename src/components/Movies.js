@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Movies = () => {
   return (
-    <div><h1>Movies</h1></div>
-  )
-}
+    <div>
+      <h1>Movies</h1>
+    </div>
+  );
+};
 
-export default Movies
+export default Movies;
