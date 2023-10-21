@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 function NavItem({ Icon, title }) {
   return (
@@ -7,10 +7,10 @@ function NavItem({ Icon, title }) {
       className="flex flex-col items-center cursor-pointer group w-12"
       activeClassName="text-red-600"
     >
-     <Icon size={30} className="mb-1" />
-     <p className="font-semibold opacity-0 group-hover:opacity-100">{title}</p> 
+      <Icon size={30} className="mb-1" />
+      <p className="font-semibold opacity-0 group-hover:opacity-100">{title}</p>
     </NavLink>
-  )
+  );
 }
 
-export default NavItem
+export default NavItem;
